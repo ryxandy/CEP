@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_bgc"
+    >
+
+
+
+    <EditText
+        android:id="@+id/edtCEP"
+        android:layout_width="353dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/adressicon"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        tools:text="CEP" />
+
+    <Button
+        android:id="@+id/btnPesquisar"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="217dp"
+        android:background="@drawable/arredondar_area"
+        android:text="Buscar" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/stateicon"
+        android:text="Estado"
+        android:textAlignment="center"
+        tools:text="Estado" />
+
+    <TextView
+        android:id="@+id/txtCEP"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/cepicon"
+        android:text="CEP"
+        android:textAlignment="center"
+        tools:text="CEP" />
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/cityicon"
+        android:text="Cidade"
+        android:textAlignment="center"
+        tools:text="Cidade" />
+
+    <TextView
+        android:id="@+id/txtCodIBGE"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/ibgecode"
+        android:text="Código IBGE"
+        android:textAlignment="center"
+        tools:text="Código IBGE" />
+
+    <TextView
+        android:id="@+id/txtComplemento"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/complementoicon"
+        android:text="Complemento "
+        android:textAlignment="center"
+        tools:text="Complemento" />
+
+    <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/arredondar_area"
+        android:drawableRight="@drawable/adressicon"
+        android:text="Endereço"
+        android:textAlignment="center"
+        tools:text="Endereço" />
+
+
+</RelativeLayout>
